@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Extend Kramdown syntax to generate script tags for embedded gists}
   gem.homepage      = "https://github.com/rfc1459/kramdown-gist"
 
-  gem.add_dependency('kramdown', '~> 0.14.0')
+  gem.add_dependency('kramdown', '~> 1.6.0')
 
   gem.add_development_dependency('yard', '~> 0.8.3')
   gem.add_development_dependency('bundler', '>= 1.0.0')
